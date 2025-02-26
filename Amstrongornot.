@@ -1,0 +1,34 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
+class Program
+{
+    static void Main()
+    {
+
+        //amstrong number
+
+        int am= int.Parse( Console.ReadLine() );
+        int original = am; 
+        int temp = 0;
+        for (int i = 1; i < am; i++)
+        {
+            
+                int b = original % 10;
+                int z = (b * b) * b;
+                temp += z;
+                original /= 10;
+              
+            
+            
+        }
+        if (am == temp)
+        {
+            Console.WriteLine("amstrong number");
+        }
+        else
+        {
+            Console.WriteLine("not amstrong number");
+        }
+ }
+}
