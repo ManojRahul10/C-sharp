@@ -1,0 +1,26 @@
+using System;
+using System.Transactions;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("enter your current balance");
+        int currentBalance= int.Parse(Console.ReadLine());
+
+        while (currentBalance != 0) {
+            Console.WriteLine("enter your Withdrawal amount");
+            int withdrawal = int.Parse(Console.ReadLine());
+            if (withdrawal % 10 == 0)
+            {
+                int balance = currentBalance - withdrawal;
+                Console.WriteLine("amount debited");
+                Console.WriteLine("your account balance is " + balance);
+            }
+            else
+            {
+                Console.WriteLine("only 100.rs, 200.rs, 500.rs can be issued");
+            }
+        }
+}
+}
