@@ -1,0 +1,17 @@
+int a = int.Parse(Console.ReadLine());
+int sum = 0;
+for (int i = 1; i < a; i++)
+{
+    if (a % i == 0)
+    {
+        sum += i;
+    }
+}
+if (sum == a)
+{
+    Console.WriteLine("perfect number");
+}
+else
+{
+    Console.WriteLine("Not a perfect number");
+} 
