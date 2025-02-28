@@ -1,0 +1,30 @@
+using System;
+
+abstract class Bank
+{
+    public void Payment()
+    {
+        Console.WriteLine("PAYMENT");
+    }
+    public abstract void Intrest_cal();
+}
+class Loan : Bank
+{
+    public override void Intrest_cal()
+    {
+        int a = 10;
+        int b = 20;
+
+        Console.WriteLine(a + b);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Loan l=new Loan();
+        l.Intrest_cal();
+        l.Payment();
+    }
+}
