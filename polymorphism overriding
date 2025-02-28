@@ -1,0 +1,51 @@
+using System;
+
+class Payment
+{
+    public virtual void Payment1()
+    {
+        Console.WriteLine("Payment MEthods: ");
+    }
+}
+
+class Bank : Payment
+{
+    public override void Payment1()
+    {
+        Console.WriteLine("Bank method");
+    }
+   
+}
+class EMI: Payment
+{
+    public override void Payment1()
+    {
+        Console.WriteLine("EMI method");
+
+    }
+}
+class UPI:Payment
+{
+    public override void Payment1()
+    {
+        Console.WriteLine("UPI method");
+    }
+}
+
+
+class Program
+{
+    static void Main()
+    {
+        Payment obj= new Payment();
+        Payment obj1 = new Bank();
+        Payment obj2 = new EMI();
+        Payment obj3 = new UPI();
+
+        obj.Payment1();
+        obj1.Payment1();
+        obj2.Payment1();
+        obj3.Payment1();
+        
+    }
+}
