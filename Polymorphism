@@ -1,0 +1,29 @@
+//onething showing multiple behavior
+1) overloading: Compile time
+2) overriding: Runtime
+Overriding: virtual, override
+
+
+using System;
+
+class Maths
+{
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+    public double Add(double a, double b)
+    {
+        return (a + b) / 2;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Maths m= new Maths();
+        Console.WriteLine(m.Add(10,5));
+        Console.WriteLine(m.Add(20,5));
+    }
+}
