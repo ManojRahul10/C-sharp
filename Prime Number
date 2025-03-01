@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int num= int.Parse(Console.ReadLine());
+        bool prime = true;
+        for  (int i =2; i<num; i++)
+        {
+           if( num % i == 0)
+            {
+                prime = false;
+                break;
+            }
+        }
+        string a = prime ? "prime number" : "not a prime";
+        Console.WriteLine(a);
+    }
+}
+
