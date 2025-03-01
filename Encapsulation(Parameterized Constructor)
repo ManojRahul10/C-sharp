@@ -1,0 +1,30 @@
+using System;
+class Bank
+{
+    private int Acc_no;
+    private string name;
+    private string IFSC;
+
+    public Bank ( int Acc_no, string name , string IFSC)
+    {
+        this.Acc_no = Acc_no;
+        this.name= name;
+        this.IFSC = IFSC;
+    }
+    public void Mymethod()
+    {
+        Console.WriteLine(Acc_no);
+        Console.WriteLine(name);
+        Console.WriteLine(IFSC);
+
+    }
+
+}
+class Program
+{
+    static void Main()
+    {
+        Bank obj = new Bank(12345, "SBI", "SBI012");
+        obj.Mymethod();
+    }
+}
