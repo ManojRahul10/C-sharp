@@ -1,0 +1,13 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        string a = "Manoj";
+        int b = 20;
+        string str= $"my name is {a} and my age is {b}" ;
+        Console.WriteLine();
+
+        
+    }
+}
