@@ -1,0 +1,26 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        int fibonacci= int.Parse(Console.ReadLine());
+        int a = 0;
+        int b = 1;
+        
+        int result;
+        Console.WriteLine( a );
+        Console.WriteLine(b);
+
+        for(int i = 1; i <= fibonacci; i++)
+        {
+            result = a + b;
+            Console.WriteLine(result);
+            a = b;
+            b = result;
+
+        }
+
+
+
+    }
+}
