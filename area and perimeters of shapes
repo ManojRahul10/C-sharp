@@ -1,0 +1,28 @@
+//Write a program to create a class that represents a shape. Include methods to calculate its area and perimeter. Implement subclasses for different shapes like circle, triangle, and square.
+
+
+using System.Xml.Serialization;
+
+class Shapes
+{
+    public int r= int.Parse(Console.ReadLine());
+
+}
+class Circle : Shapes
+{
+    public string m = "Circle";
+    public double pi = 3.14;
+    public void AreaOfCircle()
+    {
+        Console.WriteLine(m);
+        
+        double area = pi * (r* r);
+        Console.WriteLine("Area Of the circle is: "+ area);
+
+    }public void PerimeterOfCircle()
+    {
+
+        double perimeter = 2 * pi * r;
+        Console.WriteLine("Perimeter of a circle is: "+ perimeter);
+    }
+}
