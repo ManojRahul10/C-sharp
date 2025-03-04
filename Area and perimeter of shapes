@@ -4,11 +4,12 @@ using System.Xml.Serialization;
 
 class Shapes
 {
-    public int r= int.Parse(Console.ReadLine());
+    
 
 }
 class Circle : Shapes
 {
+    public int r = int.Parse(Console.ReadLine());
     public string m = "Circle";
     public double pi = 3.14;
     public void AreaOfCircle()
@@ -25,6 +26,7 @@ class Circle : Shapes
         Console.WriteLine("Perimeter of a circle is: "+ perimeter);
     }
 }
+//Square
 class Square : Shapes
 {
     public int side= int.Parse(Console.ReadLine());
@@ -39,5 +41,44 @@ class Square : Shapes
     {
         int perimeterSq = 4 * side;
         Console.WriteLine("Perimeter of Square: " + perimeterSq);
+    }
+}
+
+class Rectangle : Shapes
+{
+
+    public int l= int.Parse(Console.ReadLine());
+    public int w= int.Parse(Console.ReadLine());
+
+    public void AreaOfRectangle()
+    {
+        int areaRectangle = l * w;
+        Console.WriteLine("The area of Rectangle is: "+ areaRectangle);
+    
+    } public void PerimeterofRectangle()
+    {
+        int PeriRectangle = 2*(l+w);
+        Console.WriteLine("Perimeter of Rectangle is: "+ PeriRectangle );
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Shapes shapes = new Shapes();
+
+        Circle circle = new Circle();
+        circle.AreaOfCircle();
+        circle.PerimeterOfCircle();
+        
+        Square square = new Square();
+        square.AreaOfSquare();
+        square.PerimeterOfSquare();
+
+        Rectangle rectangle = new Rectangle();
+        rectangle.AreaOfRectangle();
+        rectangle.PerimeterofRectangle();
+        
     }
 }
