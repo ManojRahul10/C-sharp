@@ -25,3 +25,19 @@ class Circle : Shapes
         Console.WriteLine("Perimeter of a circle is: "+ perimeter);
     }
 }
+class Square : Shapes
+{
+    public int side= int.Parse(Console.ReadLine());
+
+    public void AreaOfSquare() 
+    {
+        int areaSq = side * side;
+        Console.WriteLine("Area of square: "+ areaSq);
+    }
+
+    public void PerimeterOfSquare()
+    {
+        int perimeterSq = 4 * side;
+        Console.WriteLine("Perimeter of Square: " + perimeterSq);
+    }
+}
