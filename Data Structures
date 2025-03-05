@@ -1,12 +1,29 @@
 Data Structures: 
 1) Control Statement
-   *Selectors, Switch
-   *Loop
-   *Transfer Statement
-   *Nested Loop
+    Selectors:If, else if, else
+    Loop: For, While, Do-while
+    Transfer: Break, Continue
+    Nested loop: Loop inside a loop
+
 
 2) Collections
    *Array
    *List
    *Queue
    *Dictionary
+-----------------------------------------------------------------------------------------
+1) Control Statement 
+
+Selectors: 
+
+if(condition){
+    Console.WriteLine(" ");
+}
+else if(condition){
+    Console.WriteLine(" ");
+}
+else{
+    Console.WriteLine(" ");
+}
+
+---------------
