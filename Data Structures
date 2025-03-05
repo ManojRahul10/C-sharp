@@ -27,3 +27,31 @@ else{
 }
 
 ---------------
+
+Loop: 
+
+for( initialization; condition; updation)
+{ 
+        Printing StateMent;
+}
+
+
+while: 
+
+initialization;
+while(Condition)
+{
+Printing Statement;
+updation;
+)
+
+do-While:
+
+
+initialization;
+do{
+    Printing Statement;
+    updation;
+}while(Condition)
+
+-----------------
