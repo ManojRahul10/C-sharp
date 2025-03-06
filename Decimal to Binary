@@ -1,0 +1,20 @@
+using System;
+class Program
+{
+
+    static void Main()
+    {
+        int a = int.Parse(Console.ReadLine());
+        string temp = "";
+
+        while (a > 0)
+        {
+            int b = a % 2;
+            temp = b + temp;
+            a /= 2;
+            
+        }
+        Console.WriteLine(temp);
+
+    }
+}
