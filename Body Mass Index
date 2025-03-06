@@ -1,0 +1,7 @@
+Console.WriteLine("BMI");
+int weight = 87;
+float height = 1.8f;
+float b = height * height;
+
+float BMI = weight / b;
+Console.WriteLine(BMI);
