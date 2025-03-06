@@ -1,0 +1,28 @@
+using System;
+
+class Sports
+{
+    public string str = "Enter the sports";
+    public void Sports1()
+    {
+        string a = "cricket";
+        string b = "football";
+        Console.WriteLine(a);
+        Console.WriteLine(b);
+    }
+    public void Sports2() { 
+        string c = "swimming";
+    string d = "dancing";
+        Console.WriteLine(c);
+        Console.WriteLine(d);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Sports s = new Sports();
+        s.Sports1();
+        s.Sports2();
+    }
+}
