@@ -1,0 +1,7 @@
+string hasSeatAvailable = "Yes";
+string isMember = "Yes";
+
+string output = hasSeatAvailable == "Yes" || hasSeatAvailable == "No" ? "yes seat is available " : "no the seat is no available";
+Console.WriteLine(output);
+string output1 = isMember == "Yes" || isMember == "no" ? "the user is a member " : "the user is not a member";
+Console.WriteLine(output1);
