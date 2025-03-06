@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        //vowels or consonants
+        char ch = Char.Parse(Console.ReadLine());
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+        {
+            Console.WriteLine(ch + " is a Vowel");
+        }
+        else
+        {
+            Console.WriteLine(ch + "is a consonant");
+        }
+
+        }
+}
