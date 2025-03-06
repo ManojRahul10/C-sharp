@@ -1,0 +1,12 @@
+ Console.WriteLine("2nd QUESTION");
+
+ int l = int.Parse(Console.ReadLine());
+// int len = int.Parse(l);
+
+ int width = 75;
+
+ int a = l * width;
+ Console.WriteLine("areaofrectangle: "+ a);
+
+ int peri = 2 * a;
+ Console.WriteLine("perimeterofrectangle: "+ peri);
