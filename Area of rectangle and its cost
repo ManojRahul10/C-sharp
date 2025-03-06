@@ -1,0 +1,10 @@
+Console.WriteLine("1ST QUESTION");
+
+int length = 50;
+int bredth = 50;
+
+int cost = 10;
+
+int area = length * bredth;
+int total = cost * area;
+Console.WriteLine("Rs:"+ total);
