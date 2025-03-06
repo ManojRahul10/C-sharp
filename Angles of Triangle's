@@ -1,0 +1,31 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        double a = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine());
+        double c = double.Parse(Console.ReadLine());
+
+        double x = (a * a) + (b * b);
+        double z = c * c;
+
+
+        if (x == z)
+        {
+            Console.WriteLine("Right Triangle");
+        }
+        else if (x > z)
+        {
+            Console.WriteLine("Acute Triangle");
+        }
+        else if (x < z)
+        {
+            Console.WriteLine("Obtuse Triangle");
+        }
+        else if ((a + b) == c)
+        {
+            Console.WriteLine("Straight Triangle");
+        }
+    }
+}
