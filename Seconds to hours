@@ -1,0 +1,5 @@
+int totalvalues = 7200;
+int minutes = totalvalues / 60;
+Console.WriteLine(minutes+" mins");
+int hour = minutes / 60;
+Console.WriteLine(hour+ " Hrs");
