@@ -1,0 +1,5 @@
+int temperature;
+temperature = 30;
+temperature = temperature += 10;
+temperature = temperature -= 5;
+Console.WriteLine(temperature);
