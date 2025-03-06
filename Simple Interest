@@ -1,0 +1,6 @@
+Console.WriteLine("4th question");
+int p = 10;
+int n = 30;
+int r = 100;
+int SI = (p * n * r)/100;
+Console.WriteLine("simpleintrest: " + SI);
