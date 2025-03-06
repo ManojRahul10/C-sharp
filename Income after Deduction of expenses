@@ -1,0 +1,9 @@
+Console.WriteLine("3rd QUESTION");//assignment operator
+int income= 25000;
+int food = 3000;
+int shopping = 5000;
+int petrol = 100 * 30;
+Console.WriteLine(income-=food);
+Console.WriteLine(income-=shopping);
+Console.WriteLine(income-=petrol);
+Console.WriteLine("Remaining Balance: " + income);
