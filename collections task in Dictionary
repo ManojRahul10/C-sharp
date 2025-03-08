@@ -1,0 +1,20 @@
+//Update the score of a specific student in the Dictionary.
+
+
+Dictionary<string, int> val = new Dictionary<string, int>();
+
+val.Add("Manoj", 99);
+val.Add("Aravind", 100);
+val.Add("Ajay", 98);
+val.Add("Jack", 94);
+
+
+val["Ajay"] = 95;//updates a value
+
+val.Remove("Jack");
+foreach (var i in val)
+{
+
+    Console.WriteLine(i);
+
+}
