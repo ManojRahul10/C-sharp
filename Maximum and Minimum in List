@@ -1,0 +1,17 @@
+//Find the maximum and minimum values in a List of integers.
+
+
+List<int> ints = new List<int> { 48, 64, 73, 19, 25, 96, 02, 85 };
+
+
+
+int maxnumber = ints[0];
+
+foreach (int i in ints)
+{
+    if (i > maxnumber)
+    {
+        maxnumber = i;
+    }
+}
+Console.WriteLine(maxnumber);
