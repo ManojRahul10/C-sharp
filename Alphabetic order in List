@@ -1,0 +1,10 @@
+//Sort a List of strings in alphabetical order.
+
+List<string> str = new List<string> { "hey", "this", "is ", "aravind", "but", "rahul" };
+
+str.Sort();
+
+foreach (string str2 in str)
+{
+    Console.WriteLine(str2);
+}
