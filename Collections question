@@ -1,0 +1,15 @@
+//Create a List of integers and add the numbers 1 to 10.
+
+List<int> num = new List<int>();
+num.Add(1);
+num.Add(2);
+num.Add(3);
+num.Add(4);
+num.Add(5);
+Console.WriteLine(num);
+
+foreach (int b in num)
+{
+
+    Console.WriteLine(b);
+}
