@@ -1,0 +1,20 @@
+//Create a Dictionary with keys as student names and values as their scores.
+
+Dictionary<string, int> val = new Dictionary<string, int>();
+
+val.Add("Manoj", 99);
+val.Add("Aravind", 100);
+val.Add("Ajay", 98);
+val.Add("JAck", 94);
+
+
+val["Ajay"] = 95;//updates a value
+
+int maxScore = val.Values.Max();
+var a = val.Where(x => x.Value == maxScore);
+foreach (var i in a)
+{
+
+    Console.WriteLine(i + " - " + maxScore);
+
+}
