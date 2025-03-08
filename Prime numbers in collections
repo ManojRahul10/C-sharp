@@ -1,0 +1,39 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 15;
+
+        int[] num = new int[a];
+
+        int y = 0;
+        for (int i = 2; i<=a; i++)
+        {
+            int count = 0;
+
+            for (int j = 1; j <= i; j++)
+            {
+                if (i % j == 0)
+                {
+                    count++;
+                }
+
+            }
+            if (count == 2)
+            {
+                num[y] = i;
+                y++;
+            }
+
+        }
+        foreach (int x in num)
+        {
+            if (x != 0)
+            {
+                Console.WriteLine(x);
+            }
+        }
+    }
+}
