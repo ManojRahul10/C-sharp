@@ -9,5 +9,6 @@ double c = 36.5;
 double fahrenheit = (1.8) * c + 32;
 
 Console.WriteLine(fahrenheit);
+
 }
 }
