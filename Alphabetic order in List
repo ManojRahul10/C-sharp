@@ -1,5 +1,11 @@
 //Sort a List of strings in alphabetical order.
 
+using System;
+
+class Program{
+
+static void Main(){
+
 List<string> str = new List<string> { "hey", "this", "is ", "aravind", "but", "rahul" };
 
 str.Sort();
@@ -7,4 +13,8 @@ str.Sort();
 foreach (string str2 in str)
 {
     Console.WriteLine(str2);
+}
+
+
+}
 }
