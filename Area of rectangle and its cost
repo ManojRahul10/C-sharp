@@ -1,4 +1,8 @@
-Console.WriteLine("1ST QUESTION");
+using System;
+
+class Program{
+
+static void Main(){
 
 int length = 50;
 int bredth = 50;
@@ -8,3 +12,5 @@ int cost = 10;
 int area = length * bredth;
 int total = cost * area;
 Console.WriteLine("Rs:"+ total);
+}
+}
