@@ -46,7 +46,7 @@ updation;
 )
 
 do-While:
-
+it will first run the program and then checks the condition
 
 initialization;
 do{
@@ -55,3 +55,4 @@ do{
 }while(Condition)
 
 -----------------
+
