@@ -1,4 +1,9 @@
 //Create a Dictionary with keys as student names and values as their scores.
+using System;
+
+class Program{
+
+static void Main(){
 
 Dictionary<string, int> val = new Dictionary<string, int>();
 
@@ -17,4 +22,6 @@ foreach (var i in a)
 
     Console.WriteLine(i + " - " + maxScore);
 
+}
+}
 }
