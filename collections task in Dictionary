@@ -1,5 +1,5 @@
 //Update the score of a specific student in the Dictionary.
-
+using System;
 
 Dictionary<string, int> val = new Dictionary<string, int>();
 
@@ -17,4 +17,6 @@ foreach (var i in val)
 
     Console.WriteLine(i);
 
+}
+}
 }
