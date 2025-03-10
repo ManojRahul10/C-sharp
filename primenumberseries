@@ -18,6 +18,8 @@ class Program
 
                     count++;
                 }
+
+
                 j++;
             }
             if(count == 2)
