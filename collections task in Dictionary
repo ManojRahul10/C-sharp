@@ -1,6 +1,8 @@
 //Update the score of a specific student in the Dictionary.
 using System;
 class Program{
+static void Main(){
+
 
 Dictionary<string, int> val = new Dictionary<string, int>();
 
