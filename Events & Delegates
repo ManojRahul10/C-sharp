@@ -6,3 +6,18 @@ Syntax:
     public delegates coid MyDelegate(string message);
 
 Usages: Delegates allows methods to be passed as parameters
+-----------------------------------------------
+
+Ex: code
+
+
+public delegate void GreetDelegate(string message);
+public static void Greet(string message)
+{ 
+Console.WriteLine(message);
+}
+static void Main()
+{
+GreetDelegate greet = new Greet Delegate(Greet);
+greet("Hello World");
+}.
