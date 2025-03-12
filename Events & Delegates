@@ -1,10 +1,10 @@
 Events & Delegates:-
 
+Events: An event is a special kind of delegate used to provide notification
 
+usage: used in scenarios where one object needs to notify about a change(like a button clicks).
 
-
-
-
+Syntax: public event EventHandler MyEvent;
 
 Deligates: Type safe function pointer. A deligate is a type that represents reference to methods with a specific signature.
 
