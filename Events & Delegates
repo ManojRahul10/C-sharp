@@ -2,3 +2,7 @@ Events & Delegates:-
 
 Deligates: Type safe function pointer. A deligate is a type that represents reference to methods with a specific signature.
 
+Syntax: 
+    public delegates coid MyDelegate(string message);
+
+Usages: Delegates allows methods to be passed as parameters
