@@ -1,0 +1,4 @@
+Events & Delegates:-
+
+Deligates: Type safe function pointer. A deligate is a type that represents reference to methods with a specific signature.
+
