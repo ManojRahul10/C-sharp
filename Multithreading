@@ -2,3 +2,8 @@ Multi Threading- Two types of programs runs simultaniously.
 name space - System.Threading
 
 
+Thread:
+start-> threading start
+Join-> Multithreading
+sleep-> through thread
+Abort()->Terminator a thread(not recommended due to potential issues)
