@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        try
+        {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int add = a + b;
+            Console.WriteLine(add);
+        }
+        catch (Exception e) 
+        {
+            Console.WriteLine(e);
+        }
+        finally
+        {
+            Console.WriteLine("haii ");
+        }
+    }
+}
