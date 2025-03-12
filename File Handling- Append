@@ -1,0 +1,15 @@
+using System;
+using System.IO;
+
+class Program
+{
+    static void Main()
+    {
+        string a = " this is my input";
+        string filepath = @"C:\\Users\\aravi\\Desktop\\csharp.txt";
+        //File.WriteAllText(filepath, a);
+        //Console.WriteLine(File.ReadAllText(filepath));
+
+        File.AppendAllText(filepath, " This is the last line");
+    }
+}
