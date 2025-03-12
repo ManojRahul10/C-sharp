@@ -10,3 +10,4 @@ Abort()->Terminator a thread(not recommended due to potential issues)
 
 
 Multithreading in c# allows multiple threads to execute code currently, making programs more efficient by utilizing multiple CPU cores.
+
