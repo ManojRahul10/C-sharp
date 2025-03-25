@@ -6,9 +6,7 @@ class Program
     static void Main()
     {
         string a = " this is my input";
-
         string filepath = @"C:\\Users\\aravi\\Desktop\\csharp.txt";
-
         File.WriteAllText(filepath, a);
         Console.WriteLine(a);
     }
