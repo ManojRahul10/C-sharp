@@ -8,6 +8,7 @@ class Program
         int b = 1;
         
         int result;
+
         Console.WriteLine( a );
         Console.WriteLine(b);
 
