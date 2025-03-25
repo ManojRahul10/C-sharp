@@ -18,7 +18,6 @@ class Program
                 int z = (b * b) * b;
                 temp += z;
                 original /= 10;
-          
         }
         if (am == temp)
         {
