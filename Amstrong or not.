@@ -5,7 +5,6 @@ class Program
 {
     static void Main()
     {
-
         //amstrong number
 
         int am= int.Parse( Console.ReadLine() );
