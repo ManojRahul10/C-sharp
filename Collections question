@@ -16,7 +16,5 @@ foreach (int b in num)
 
     Console.WriteLine(b);
 }
-
-
    }
  }
