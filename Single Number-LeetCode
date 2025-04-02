@@ -10,3 +10,16 @@ Input: nums = [2,2,1]
 
 Output: 1
 
+Answer:
+
+
+public class Solution {
+    public int SingleNumber(int[] nums) {
+       int result=0;
+
+       foreach (int num in nums){
+            result=result^num;
+           }
+           return result;
+               }
+}
