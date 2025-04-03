@@ -1,3 +1,6 @@
+Interface can only use abstract method 
+
+
 using System;
 
 abstract class Bank
