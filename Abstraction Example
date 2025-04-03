@@ -1,3 +1,5 @@
+Abstraction is a type of inheritance which shows only the necessary files 
+
 using System;
 
 abstract class Bank
