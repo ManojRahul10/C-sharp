@@ -1,4 +1,6 @@
-For can be used for nested loop
+For can be used for nested loop.
+
+while is totally condition based
 
 using System;
 
