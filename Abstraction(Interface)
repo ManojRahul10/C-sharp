@@ -1,5 +1,5 @@
 Interface can only use abstract method 
-
+whereas abstraction can use both normal method and abstraction method
 
 using System;
 
