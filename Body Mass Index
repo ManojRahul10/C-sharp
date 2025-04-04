@@ -1,4 +1,4 @@
-using System;
+using System;//namespace
 
 class Program{
 static void Main(){
