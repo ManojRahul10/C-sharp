@@ -1,5 +1,5 @@
 //Create a List of integers and add the numbers 1 to 10.
-using System;
+using System;//namespace
 class Program{
 static void Main(){
 
